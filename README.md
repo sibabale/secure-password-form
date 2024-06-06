@@ -2,7 +2,10 @@
 
 ![Create Password Form](./form-image.png)
 
+
 This project is a recreation of a user-friendly, modern, and intuitive password creation form, originally inspired by a LinkedIn post from [Memorizely](https://www.linkedin.com/school/memorisely/) and [Zander Whitehurst](https://www.linkedin.com/in/zanderwhitehurst/). The goal was to replicate the design using only HTML, CSS, and vanilla JavaScript, challenging myself to see if I still had a solid understanding of the browser API and the DOM.
+
+Codepen Link: [https://codepen.io/Sibabale/pen/pomwrgd](https://codepen.io/Sibabale/pen/pomwrgd)
 
 ## Table of Contents
 - [Features](#features)
