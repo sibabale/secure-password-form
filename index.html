@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="container">
+            <form class="content">
+
+                <div class="lock-image">
+                <svg width="60" height="60" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="69.1606" cy="78.2663" rx="53.5" ry="66.5" transform="rotate(15.3101 69.1606 78.2663)" fill="#D9D9D9" />
+                    <path d="M46.0855 71.5272L39.1408 58.5438C36.535 53.6723 38.3733 47.6107 43.2461 45.0072L59.4961 36.325C64.3669 33.7226 70.4252 35.5611 73.0281 40.4317L79.9688 53.4191" stroke="white" stroke-width="5" />
+                    <rect x="35.8906" y="76.5552" width="63" height="54" rx="10" transform="rotate(-28.121 35.8906 76.5552)" fill="#ED9A1F" />
+                    <circle cx="74.7485" cy="82.4342" r="6.5" transform="rotate(-28.121 74.7485 82.4342)" fill="black" />
+                    <path d="M80.6709 94.5762L72.6582 79.583" stroke="black" stroke-width="5" stroke-linecap="round" />
+                </svg>
+                </div>
+
+                <h2 class="heading">Create a secure password</h2>
+
+                <div class="input-container">
+                    <div class="password-container">
+                        <label class="password-label">Password</label>
+                        <input class="password-input" type="password" autocomplete="off" autofocus />
+                    </div>
+                    <span class="show-password">Show</span>
+                </div>
+
+                <div class="password-strength">
+                <small>Password strength</small>
+                <div class="progress-bar">
+                    <div class="bar"></div>
+                </div>
+                <small class="password-strength-text"></small>
+                </div>
+
+                <div class="validation-list">
+                <span>Must contain at least</span>
+                <ul class="validation-items">
+                    <li class="validation-item">
+                    <span class="validation-item-dot-1"></span>
+                    <span class="validation-item-check-1">&#10003;</span>
+                    <span class="validation-item-text">8 letters</span>
+                    </li>
+                    <li class="validation-item">
+                    <span class="validation-item-dot-2"></span>
+                    <span class="validation-item-check-2">&#10003;</span>
+                    <span class="validation-item-text">1 uppercase character</span>
+                    </li>
+                    <li class="validation-item">
+                    <span class="validation-item-dot-3"></span>
+                    <span class="validation-item-check-3">&#10003;</span>
+                    <span class="validation-item-text">1 special character</span>
+                    </li>
+                </ul>
+                </div>
+
+                <button class="button">Continue</button>
+
+                <div class="forgot-password-container">
+                <a href="#" class="forgot-password-link">Forgot password?</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
